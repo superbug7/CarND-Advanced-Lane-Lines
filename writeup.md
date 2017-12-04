@@ -15,13 +15,13 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./advanced_lane/image-1.JPG "Undistorted"
-[image2]: ./advanced_lane/image-1.JPG "Road Transformed"
-[image3]: ./advanced_lane/image-1.JPG "Binary Example"
-[image4]: ./advanced_lane/image-1.JPG "Warp Example"
-[image5]: ./advanced_lane/image-1.JPG "Fit Visual"
-[image6]: ./advanced_lane/image-1.JPG "Output"
-[image7]: ./advanced_lane/image-1.JPG "Output"
-[image8]: ./advanced_lane/image-1.JPG "Output"
+[image2]: ./advanced_lane/image-2.JPG "Road Transformed"
+[image3]: ./advanced_lane/image-3.JPG "Binary Example"
+[image4]: ./advanced_lane/image-4.JPG "Warp Example"
+[image5]: ./advanced_lane/image-5.JPG "Fit Visual"
+[image6]: ./advanced_lane/image-6.JPG "Output"
+[image7]: ./advanced_lane/image-7.JPG "Output"
+[image8]: ./advanced_lane/image-8.JPG "Output"
 [video1]: ./advanced_lane/image-1.JPG "Output Video"
 [video2]: ./advanced_lane/image-1.JPG "Challenge video"
 
@@ -132,8 +132,8 @@ I implemented this step in 'draw_lane' function..  Here is an example of my resu
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [Car lane finding Video result](./project_video_output.mp4)
-[Challenge Video](./challenge_video_output.mp4)
+* Here's a [Car lane finding Video result](./project_video_output.mp4)
+* Here's a [Challenge Video](./challenge_video_output.mp4)
 
 ---
 
