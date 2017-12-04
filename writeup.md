@@ -14,13 +14,17 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[image1]: ./advanced_lane/image-1.JPG "Undistorted"
+[image2]: ./advanced_lane/image-1.JPG "Road Transformed"
+[image3]: ./advanced_lane/image-1.JPG "Binary Example"
+[image4]: ./advanced_lane/image-1.JPG "Warp Example"
+[image5]: ./advanced_lane/image-1.JPG "Fit Visual"
+[image6]: ./advanced_lane/image-1.JPG "Output"
+[image7]: ./advanced_lane/image-1.JPG "Output"
+[image8]: ./advanced_lane/image-1.JPG "Output"
+[video1]: ./advanced_lane/image-1.JPG "Output Video"
+[video2]: ./advanced_lane/image-1.JPG "Challenge video"
+
 
 
 ### Here I will describe how I addressed each point in my implementation.  
