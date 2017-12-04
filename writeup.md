@@ -110,9 +110,9 @@ I got the best identification of lanes using the 3rd method and hence I applied 
 
 Then, I did the polyfit with and without knowing previous image fit as we assume that the fit will not change significantly from one video frame to the next. Here are is what output looks like after polyfit:
 
-[image6]
+![alt text][image6]
 
-[image7]
+![alt text][image7]
 
 #### 5. Radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -124,7 +124,7 @@ Radius of curvature: 592.713071454 m, 316.764092538 m
 
 I implemented this step in 'draw_lane' function..  Here is an example of my result on a test image:
 
-[image8]
+![alt text][image8]
 
 ---
 
