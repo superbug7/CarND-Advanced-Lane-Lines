@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image5]: ./advanced_lane/image-5.JPG "Fit Visual"
 [image6]: ./advanced_lane/image-6.JPG "Output"
 [image7]: ./advanced_lane/image-7.JPG "Output"
-[image8]: ./advanced_lane/image-8.JPG "Output"
+[image8]: ./advanced_lane/image-9.JPG "Output"
 [video1]: ./advanced_lane/image-1.JPG "Output Video"
 [video2]: ./advanced_lane/image-1.JPG "Challenge video"
 
