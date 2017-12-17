@@ -52,14 +52,8 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 #### 2. Color transforms, gradients and other methods to create a thresholded binary image.  
 
-I tested L-channel and S-channel HLS color transformation and found out the S-channel gives the right amount off infrmation about lanes for me to work on. 
-'''
-def hls_select(img, thresh=(70, 255)):
-    hls = cv2.cvtColor(img, cv2.COLOR_RGB2HLS)
-    s_channel = hls[:,:,2]
-    binary_output = np.zeros_like(s_channel)
-    binary_output[(s_channel > thresh[0]) & (s_channel <= thresh[1])] = 1
-'''
+I tested L-channel and S-channel HLS color transformation and found out the L-channel gives the right amount off information about white lane for me to work on. 
+
 
 Here's an example of my output for this step on one of the test images. 
 
@@ -103,8 +97,9 @@ For pipeline, I experiemented with:
 1.  Combining L-channel with Sobel Mag threshold
 2.  Combining S-channel with Soble Mag threshold
 3.  Combining S-channel with Sobel Mag+Dir threshold
+4.  Combining L-channel with B-channel from LAB colorspace
 
-I got the best identification of lanes using the 3rd method and hence I applied it to all my images test set as shown below:
+I got the best identification of right and left lanes using the 4th method and hence I applied it to all my images test set as shown below:
 
 ![alt text][image5]
 
